@@ -1,0 +1,118 @@
+$green: #666d4b;
+$black: #2e2e2e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: 'Tajawal', serif;
+  color: $black;
+}
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: $black;
+}
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  max-width: 24rem;
+  min-width: 24rem;
+}
+// #ayaDisplay {
+//   font-weight: 100;
+//   font-size: 2.5rem;
+//   max-width: 90vw;
+//   text-align: center;
+//   padding: 10px;
+//   margin-bottom: 2rem;
+//   /* font-size: 2.4rem; */
+//   /* background-color: rgba(240, 248, 255, 0.137); */
+// }
+
+.buttonsholder {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  // justify-content: center;
+}
+
+.logo {
+  margin: 2rem 0;
+}
+
+.section {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .title {
+  }
+  .contentHolder {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 0.7rem 0;
+    background-color: $green;
+    h1 {
+      text-align: center;
+      font-weight: 100;
+      font-size: 1.7rem;
+      color: #fff;
+      font-family: 'Lateef', cursive;
+    }
+  }
+  .crtlBtns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    button,
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      flex: 1;
+      border: none;
+      padding: 0.6rem 0;
+      background-color: $black;
+      color: #fff;
+      transition: 0.1s ease-out all;
+      &:active {
+        transform: scale(0.96);
+      }
+      svg {
+        stroke: #fff;
+      }
+    }
+  }
+}
+
+.quran {
+  margin-bottom: 2rem;
+}
