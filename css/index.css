@@ -18,15 +18,11 @@ html {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #2e2e2e;
 }
 
 body {
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #fff;
-  max-width: 24rem;
-  min-width: 24rem;
 }
 
 .buttonsholder {
